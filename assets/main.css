@@ -1,0 +1,243 @@
+@import url('https://rsms.me/inter/inter.css');
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+* {
+-webkit-font-smoothing: antialiased;
+}
+
+.jumbotron {
+  border-radius: 0px;
+  padding: 1rem 1rem;
+  margin-bottom: 0rem;
+}
+html, body {
+  background:#181818;
+
+font-family: 'Inter', sans-serif;
+  color:rgba(255,255,255,0.6);
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+      text-rendering: optimizeLegibility;
+      -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "kern" 1,"liga" 1;
+    font-feature-settings: "kern" 1,"liga" 1;
+    scroll-behavior: smooth;
+}
+
+.modal-wilco {
+  background-color:#181818;
+}
+.modal-header-wilco {
+  border-bottom:1px solid rgba(255,255,255,0.1)
+}
+.modal-header-wilco .modal-title {
+  color:white;
+}
+body {
+  margin-top:50px;
+}
+
+
+h1, h2, h3 {
+ 
+  color:white;
+
+
+}
+.hero-background {
+  background-image:url('herobackground.png');
+  min-height:500px;
+}
+h4, h5, h6 {
+  color:#343d46;
+}
+.oneprecentpink {
+  color:#e8466d
+}
+.logo-home {
+  max-width:70%
+}
+.footer .nav-link {
+  font-size:14px;
+  color:rgba(72, 72, 80,0.7);
+}
+.footer ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+.footer .nav-link {
+  padding:0px;
+  margin-bottom:10px;
+}
+.text-blue {
+  color:#048FFE !important;
+}
+.btn-blue {
+  background-color:#048FFE;
+  border-color:#048FFE;
+  color:white !important;
+  font-size:16px;
+}
+.btn-blue-link-checked {
+  color:white !important;
+}
+.btn-blue-link a:hover {
+  background-color:white !important
+}
+.btn-blue {
+  color:white ;
+  border-color:#048FFE !important;
+}
+.btn-outline-blue:hover {
+  background-color:#048FFE !important;
+  color:white;
+  box-shadow: 0 5px 15px rgba(244,80,105,.2), 0 1px 10px rgba(244,80,105,.2);
+
+}
+.btn {
+    border-radius:50px;
+}
+.input-group .form-control {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+.form-control {
+  
+}
+.jumbohome {
+
+  /*border-bottom:1px solid rgba(0, 0, 0, 0.1);*/
+  background:transparent;
+}
+.white {
+  color:white !important;
+}
+.footer {
+  padding-top:20px;
+  margin-top:20px;
+  border-top:1px solid #e5e5e5;
+  padding-bottom:20px;
+}
+.lead p {
+      font-size: 1.25rem !important;
+      line-height:1.70em !important;
+}
+.smallhr {
+  width:40%;
+  margin-top:30px;
+  margin-bottom:30px;
+
+}
+hr {
+    border-style: solid;
+    border-color: #e5e5e5;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+nav {
+  -webkit-transition: background 0.1s linear;
+  -moz-transition: background 0.1s linear;
+  -ms-transition: background 0.1s linear;
+  -o-transition: background 0.1s linear;
+  transition: background 0.1s linear;
+}
+.emoticonlarge {
+  font-size:70px;
+}
+.nav-white {
+  background-color:white;
+  border-bottom:1px solid #e5e5e5;
+}
+.text-bold {
+    font-weight: bold;
+}
+.display-1 {
+    font-size: 4em;
+    margin-bottom: 15px;
+}
+.brandcolor {
+  color:#ef4423
+}
+.container {
+ max-width:1000px;
+}
+.markedtext {
+  background-color:#fcffcd;
+  padding-left: 6px;
+    padding-right: 6px;
+    font-weight: 600;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #048FFE; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.lead {
+  /*color:white;*/
+  font-weight: normal;
+}
+
+ @media (max-width: 640px) {
+
+   .jumbohome {
+     padding-top:60px;
+     padding-bottom:40px;
+
+   }
+   .display-1 {
+     font-size: 3.5em;
+  }
+ }
+ @media (min-width:640px) and (max-width: 768px) {
+   
+   .jumbohome {
+     padding-top:60px;
+     padding-bottom:40px;
+
+   }
+   .display-1 {
+     font-size: 3.5em;
+  }
+ }
+
+ @media (min-width: 768px) and (max-width:992px){
+   .display-xl {
+     font-size:5em;
+   }
+   .jumbohome {
+     padding-top:60px;
+     padding-bottom:40px;
+
+   }
+ }
+
+ @media (min-width: 992px) {
+  .display-xl {
+    font-size:5em;
+  }
+   .jumbohome {
+     padding-top:120px;
+     padding-bottom:100px;
+   }
+ }
+
+
+ #thankyoubox {
+   display:none;
+ }
+ .glowbutton {
+  -webkit-box-shadow: 0px 0px 30px -4px rgba(4,143,254,0.44);
+-moz-box-shadow: 0px 0px 30px -4px rgba(4,143,254,0.44);
+box-shadow: 0px 0px 30px -4px rgba(4,143,254,0.44);
+ }
