@@ -4,13 +4,12 @@ $(document).ready(function() {
 
         var fullname = $('#fullname').val();
         var email = $('#email').val();
-        var comapnyname = $('#companyname').val();
+        var companyname = $('#companyname').val();
 
-        $('#formbody').hide();
-        $('#thankyoubox').show();
-    
-        /* Do what ever you want here, i suggest connecting to Zapier and add to airtable */
-
+        $.post('https://hooks.zapier.com/hooks/catch/6092/ogugvdf/',{fullname:fullname,email:email,companyname:companyname},function(response){
+            $('#formbody').hide();
+            $('#thankyoubox').show();    
+        })     
     })
 
 })
