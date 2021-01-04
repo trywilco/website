@@ -37,8 +37,19 @@ font-family: 'Inter', sans-serif;
 body {
   margin-top:50px;
 }
-
-
+.logofont {
+  font-family: 'Press Start 2P', cursive;
+  font-size:20px;
+}
+.map-logo {
+  height:20px;
+  width:23px;
+  margin-right:6px;
+  margin-bottom:3px;
+}
+.rocket-img {
+  max-height:100px;
+}
 h1, h2, h3 {
  
   color:white;
@@ -48,6 +59,8 @@ h1, h2, h3 {
 .hero-background {
   background-image:url('herobackground.png');
   min-height:500px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 h4, h5, h6 {
   color:#343d46;
