@@ -46,6 +46,9 @@ body {
   margin-right:6px;
   margin-bottom:3px;
 }
+.logo{
+  max-width:125px;
+}
 .rocket-img {
   max-height:100px;
 }
