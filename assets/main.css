@@ -35,7 +35,6 @@ font-family: 'Inter', sans-serif;
   color:white;
 }
 body {
-  margin-top:50px;
 }
 .logofont {
   font-family: 'Press Start 2P', cursive;
@@ -58,9 +57,8 @@ h1, h2, h3 {
 }
 .hero-background {
   background-image:url('herobackground.png');
-  min-height:500px;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-position: top;
 }
 h4, h5, h6 {
   color:#343d46;
